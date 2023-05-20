@@ -15,10 +15,18 @@ function App() {
       <Wrapper>
         <h2>Styled Components Playground</h2>
         <Wrapper direction="row" gap="5px">
-          <ResponsiveBox>{loremIpsum}</ResponsiveBox>
-          <ResponsiveBox>{loremIpsum}</ResponsiveBox>
-          <ResponsiveBox>{loremIpsum}</ResponsiveBox>
-          <ResponsiveBox>{loremIpsum}</ResponsiveBox>
+          <ResponsiveBox>
+            ONE {loremIpsum + loremIpsum + loremIpsum}
+          </ResponsiveBox>
+          <ResponsiveBox>
+            TWO {loremIpsum + loremIpsum + loremIpsum}
+          </ResponsiveBox>
+          <ResponsiveBox>
+            THREE {loremIpsum + loremIpsum + loremIpsum + loremIpsum}
+          </ResponsiveBox>
+          <ResponsiveBox>
+            FOUR {loremIpsum + loremIpsum + loremIpsum}
+          </ResponsiveBox>
         </Wrapper>
       </Wrapper>
     </Stack>

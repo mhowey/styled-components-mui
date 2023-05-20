@@ -9,6 +9,7 @@ const Wrapper = styled(Stack)({
   flex: "1 1 200px",
   padding: "15px",
   maxWidth: "1200px",
+  minWidth: "240px",
 });
 
 export default Wrapper;
